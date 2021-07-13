@@ -1,0 +1,31 @@
+{
+    "name": "react-best-practices",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [
+        "react",
+        "javascript",
+        "js",
+        "utils",
+        "helpers",
+        "custom",
+        "utilities",
+        "tools",
+        "components",
+        "typescript"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheSinghsDen/react-best-practices.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TheSinghsDen/react-best-practices/issues"
+    },
+    "homepage": "https://github.com/TheSinghsDen/react-best-practices#readme"
+}
