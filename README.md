@@ -3,7 +3,7 @@
 
 # React-Best-Practices
 
-> React-Best-Practices is a set of useful functional components, utilities to help you write quick and clean react/js components
+> React-Best-Practices is a set of useful functional components and javascript utilities to help you write quick and clean production-ready react projects
 
 ## Install
 
@@ -20,19 +20,14 @@ yarn add react-best-practices
 ## Table of contents
 
 - [Functional Components](#functional-components)
-  - [Prerequisites](#prerequisites)
-  - [Table of contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Serving the app](#serving-the-app)
-    - [Running the tests](#running-the-tests)
-    - [Building a distribution version](#building-a-distribution-version)
-    - [Serving the distribution version](#serving-the-distribution-version)
+  - [IF](#if)
+  - [IFTTT](#ifttt)
 - [API](#api)
-  - [useBasicFetch](#usebasicfetch)
-    - [Options](#options)
-  - [fetchData](#fetchdata)
+  - [get_request](#get_request)
+  - [post_request](#post_request)
+  - [delete_request](#delete_request)
+  - [put_request](#put_request)
+  - [patch_request](#patch_request)
 - [Array](#array)
   - [average](#average)
   - [median](#median)
@@ -49,16 +44,10 @@ yarn add react-best-practices
   - [useInterval](#useinterval)
 - [URL](#url)
   - [isURL](#isurl)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [Built With](#built-with)
-- [Versioning](#versioning)
-- [Authors](#authors)
-- [License](#license)
 
 ## Functional Components
 
-A set of useful react components to replace and rewrite common monotonous code
+A set of useful react components to replace and rewrite everyday monotonous code
 
 ### Serving the app
 
@@ -219,40 +208,3 @@ median([2, 5, 30, 60]);
 ```
 
 Returns the median of an array of numbers
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-1.  Fork it!
-2.  Create your feature branch: `git checkout -b my-new-feature`
-3.  Add your changes: `git add .`
-4.  Commit your changes: `git commit -am 'Add some feature'`
-5.  Push to the branch: `git push origin my-new-feature`
-6.  Submit a pull request :sunglasses:
-
-## Credits
-
-TODO: Write credits
-
-## Built With
-
-- Dropwizard - Bla bla bla
-- Maven - Maybe
-- Atom - ergaerga
-- Love
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **John Doe** - _Initial work_ - [JohnDoe](https://github.com/JohnDoe)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-[MIT License](https://andreasonny.mit-license.org/2019) © Andrea SonnY
-{"mode":"full","isActive":false}
