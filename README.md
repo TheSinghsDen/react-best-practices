@@ -86,45 +86,72 @@ isEmail("i_love_react_best_practices");
 
 ## Object
 
-### average
+### areObjectsEqual
 
-<i>Returns the average of an array of numbers<i>
+<i>Checks to see two given objects are identical<i>
 
 ```js
-average([2, 5, 30, 60]);
-//returns 24.25
+obj1 = {
+  name: "John Doe",
+  age: 35,
+};
+obj2 = {
+  name: "John Doe",
+  age: 27,
+};
+obj3 = {
+  name: "John Doe",
+  age: 35,
+};
+
+areObjectsEqual(obj1, obj2);
+//returns False
+
+areObjectsEqual(obj1, obj3);
+//returns True
 ```
 
-### median
+### isObjectEmpty
 
-<i>Returns the median of an array of numbers<i>
+<i>Checks if the given object is empty<i>
 
 ```js
-median([2, 5, 30, 60]);
+obj1 = {
+  "name": "John Doe",
+  "age": 35
+}
+obj2 = {}
+
+isObjectEmpty(obj1);
+//returns False
+
+isObjectEmpty(obj2;
+//returns True
 ```
 
 ## String
 
-### average
+### capitalizeFirstLetter
 
-<i>Returns the average of an array of numbers<i>
+<i>Capitalize the first letter in a sentence<i>
 
 ```js
-average([2, 5, 30, 60]);
-//returns 24.25
+capitalizeFirstLetter("hello there");
+//returns Hello there
 ```
 
-### median
+### toString
 
-<i>Returns the median of an array of numbers<i>
+<i>Convert a number to string.<i>
 
 ```js
-median([2, 5, 30, 60]);
+toString(2);
+//returns "2"
 ```
 
 ## Time
 
-### average
+### delay
 
 <i>Returns the average of an array of numbers<i>
 
@@ -133,7 +160,7 @@ average([2, 5, 30, 60]);
 //returns 24.25
 ```
 
-### median
+### useInterval
 
 <i>Returns the median of an array of numbers<i>
 
@@ -143,19 +170,16 @@ median([2, 5, 30, 60]);
 
 ## URL
 
-### average
+### isURL
 
-<i>Returns the average of an array of numbers<i>
-
-```js
-average([2, 5, 30, 60]);
-//returns 24.25
-```
-
-### median
-
-<i>Returns the median of an array of numbers<i>
+<i>Checks if the given input is a standard URL<i>
 
 ```js
-median([2, 5, 30, 60]);
+isURL(
+  "https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url"
+);
+//returns True
+
+isURL("Am I a URL ?");
+//returns False
 ```
