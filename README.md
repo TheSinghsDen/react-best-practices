@@ -153,11 +153,14 @@ toString(2);
 
 ### delay
 
-<i>Returns the average of an array of numbers<i>
+<i>Supends the execution of the following code for the given time interval<i>
 
 ```js
-average([2, 5, 30, 60]);
-//returns 24.25
+//Enter interval in milliseconds
+
+delay(3000);
+//wait 3 seconds, then alert "Hello"
+alert("Hello");
 ```
 
 ### useInterval
