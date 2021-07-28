@@ -165,10 +165,11 @@ alert("Hello");
 
 ### useInterval
 
-<i>Returns the median of an array of numbers<i>
+<i>Calls a function after every given interval<i>
 
 ```js
-median([2, 5, 30, 60]);
+useInterval(function_name, delay);
+//delay in milliseconds
 ```
 
 ## URL
