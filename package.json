@@ -27,5 +27,8 @@
     "bugs": {
         "url": "https://github.com/TheSinghsDen/react-best-practices/issues"
     },
-    "homepage": "https://github.com/TheSinghsDen/react-best-practices#readme"
+    "homepage": "https://github.com/TheSinghsDen/react-best-practices#readme",
+    "dependencies": {
+        "react": "^17.0.2"
+    }
 }
